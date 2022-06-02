@@ -5,7 +5,7 @@ from .views import mas
 
 
 urlpatterns = [
-    path('home', home,name="home"),
+    path('', home,name="home"),
     path('otro', otro,name="otro"),
     path('mas', mas,name="mas"),
 
